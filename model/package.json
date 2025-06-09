@@ -35,7 +35,7 @@
 		"registry": "https://registry.npmjs.org/"
 	},
 	"scripts": {
-		"prepare": "cp ../LICENSE LICENSE",
+		"prepare": "echo starting",
 		"clean": "rm -rf lib && rm -rf node_modules/.cache/rollup-plugin-typescript2",
 		"build": "yarn clean && rollup -c",
 		"start": "rollup -c --watch",
