@@ -47,11 +47,11 @@
 	},
 	"dependencies": {
 		"sequential-workflow-editor-model": "^0.14.8",
-		"sequential-workflow-model": "^0.2.0"
+		"sequential-workflow-model": "https://github.com/Abruuham/sequential-workflow-editor"
 	},
 	"peerDependencies": {
 		"sequential-workflow-editor-model": "^0.14.8",
-		"sequential-workflow-model": "^0.2.0"
+		"sequential-workflow-model": "https://github.com/Abruuham/sequential-workflow-editor"
 	},
 	"devDependencies": {
 		"rollup": "^4.4.0",
