@@ -41,7 +41,8 @@ export class ModelActivator<TDefinition extends Definition = Definition> {
 			id: this.uidGenerator(),
 			type: stepType,
 			componentType: model.componentType,
-			properties: {}
+			properties: {},
+			items: []
 		};
 		this.activatePropertiesInOrder(step, model.properties);
 
